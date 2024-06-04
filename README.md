@@ -50,40 +50,10 @@ Optional (recommended):
    pip install scienceplots
    ```
 
-## Usage
-
-1. **Run the GUI:**
-
-   ```sh
-   python JuroCal.py
-   ```
-
-2. **Input Parameters:**
-
-   - **JYFL Ba Source #:** Enter the source number for Ba-133.
-   - **JYFL Eu Source #:** Enter the source number for Eu-152.
-   - **Calibration Date:** Enter the calibration date in `dd.mm.yyyy` format.
-   - **Length of Calibration (mins):** Enter the calibration length in minutes.
-   - **Spectrum Filename:** Enter the filename of the spectrum data (e.g., `ExpCode.dat`).
-   - **Peak Window:** Enter the window size for peak fitting.
-   - **Background Type:** Select the background type (`Linear` or `Quadratic`).
-
-3. **Save Settings:**
-
-   - Enter a name for the settings and click **Save Settings** to save the current configuration.
-
-4. **Load Settings:**
-
-   - Select a previously saved settings file from the dropdown and click **Load Settings** to load the configuration.
-
-5. **Calculate:**
-
-   - Click **Calculate** to run the efficiency calculation with the specified parameters.
-
-## Example
+## Example Usage
 
 ```sh
-python gui.py
+python JuroCal.py
 ```
 
 1. Input the following parameters:
