@@ -52,8 +52,8 @@ Optional (recommended):
 
 3. **Configure files**
 
-Update 'conf/sources.txt' to match your list of sources used to calibrate (dd.mm.yyy), currently the ones listed are purely examples.
-Load in experimental ascii spectrum in the 'data' directory, and name appropriately. 
+	Update 'conf/sources.txt' to match your list of sources used to calibrate (dd.mm.yyy), currently the ones listed are purely examples.
+	Load in experimental ascii spectrum in the 'data' directory, and name appropriately. 	
 
 ## Example Usage
 
