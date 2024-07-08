@@ -1,4 +1,4 @@
 Number, Type, Activity (Bq), Ref
-# EXAMPLE BELOW - DELETE THIS COMMENT LINE
-10, Ba-133, 10E5, 2.4.2002
+1, Eu-152, 5.00E4, 1.1.2000
+2, Ba-133, 5.00E4, 1.1.2000
 

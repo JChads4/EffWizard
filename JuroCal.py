@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 def calculate_efficiencies():
     try:
 
-        expected_peak_energies = [81, 122, 244, 276, 303, 384, 411, 444, 779, 867, 964, 1112, 1408]
+        expected_peak_energies = [81, 122, 244, 276, 303, 411, 444, 779, 867, 964, 1112, 1408]
 
         # Get Ba sources
         ba_sources_input = ba_entry.get()
