@@ -62,8 +62,8 @@ python JuroCal.py
 ```
 
 1. Input the following parameters:
-   - JYFL Ba Source #: BARIUM SOURCE NUMBER
-   - JYFL Eu Source #: EURPOIUM SOURCE NUMBER 
+   - Ba Source #: BARIUM SOURCE NUMBER
+   - Eu Source #: EURPOIUM SOURCE NUMBER 
    - Calibration Date: DD.MM.YYYY
    - Length of Calibration (mins): CALIB LENGTH (INTEGER)
    - Spectrum Filename: JRxxx.dat
