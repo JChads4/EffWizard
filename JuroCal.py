@@ -48,8 +48,8 @@ def save_settings():
         settings_name = settings_name_entry.get()
         settings_dir = 'settings/'
         with open(os.path.join(settings_dir, f"{settings_name}.settings"), "w") as file:
-            file.write(f"JYFL Ba Source #: {ba_entry.get()}\n")
-            file.write(f"JYFL Eu Source #: {eu_entry.get()}\n")
+            file.write(f"Ba Source #: {ba_entry.get()}\n")
+            file.write(f"Eu Source #: {eu_entry.get()}\n")
             file.write(f"Calibration Date: {calib_entry.get()}\n")
             file.write(f"Length of Calibration (minutes): {dt_entry.get()}\n")
             file.write(f"Data File (with ext): {data_entry.get()}\n")
@@ -156,6 +156,15 @@ load_button.grid(row=9, column=2, columnspan=2, padx=5, pady=5, sticky="WE")
 # Calculate button
 calculate_button = tk.Button(window, text="Calculate", command=calculate_efficiencies)
 calculate_button.grid(row=10, column=0, columnspan=3, padx=5, pady=10, sticky="WE")
+
+# Contact info
+contact_label = tk.Label(window, text="Created by Jamie Chadderton", font=("Helvetica", 10))
+contact_label.grid(row=12, column=0, columnspan=3, pady=(20, 10))
+
+# GitHub repository link
+github_label = tk.Label(window, text="GitHub Repository: https://github.com/JChads4/EffWizard", font=("Helvetica", 10), fg="blue", cursor="hand2")
+github_label.grid(row=13, column=0, columnspan=3, pady=(0, 10))
+github_label.bind("<Button-1>", lambda e: os.system("xdg-open https://github.com/JChads4/EffWizard"))
 
 # Run the GUI
 window.mainloop()
