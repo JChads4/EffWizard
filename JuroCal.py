@@ -87,13 +87,13 @@ window = tk.Tk()
 window.title("Efficiency Calculation Tool")
 
 # Ba sources input
-ba_label = tk.Label(window, text="JYFL Ba Source #")
+ba_label = tk.Label(window, text="Ba Source #")
 ba_label.grid(row=0, column=0, padx=5, pady=5)
 ba_entry = tk.Entry(window)
 ba_entry.grid(row=0, column=1, padx=5, pady=5)
 
 # Eu sources input
-eu_label = tk.Label(window, text="JYFL Eu Source #")
+eu_label = tk.Label(window, text="Eu Source #")
 eu_label.grid(row=1, column=0, padx=5, pady=5)
 eu_entry = tk.Entry(window)
 eu_entry.grid(row=1, column=1, padx=5, pady=5)
